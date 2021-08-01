@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+.howThe{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 40px;
+}
+
 .container{
     margin: 0 auto; /*Центрирование*/
     max-width: 1440px;
@@ -144,7 +154,17 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 142px;
+    margin-top: 102px;
+    margin-bottom: 50px;
+}
+
+.mobile2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 142px;
+    margin-top: 50px;
 }
 
 .mobile-head{
